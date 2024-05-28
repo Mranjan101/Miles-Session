@@ -60,9 +60,9 @@ router.get('/', async (req, res) => {
 	
 				   let SIGMA_MD_TEXT = `
 *_🕸𝚂𝚎𝚜𝚜𝚒𝚘𝚗 𝙸𝚍 𝚐𝚎𝚗𝚎𝚛𝚊𝚝𝚎𝚍 𝚝𝚑𝚛𝚘𝚞𝚐𝚑 𝚀𝚁 𝚌𝚘𝚍𝚎🕷_*
-*_𝚃𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝚋𝚎𝚐𝚒𝚗𝚗𝚒𝚗𝚐 𝚘𝚏 𝚢𝚘𝚞𝚛 𝚕𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝚊𝚍𝚟𝚎𝚗𝚝𝚞𝚛𝚎 𝚠𝚒𝚝𝚑 𝙼𝚒𝚕𝚎𝚜_*
+*_𝚃𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝚋𝚎𝚐𝚒𝚗𝚗𝚒𝚗𝚐 𝚘𝚏 𝚢𝚘𝚞𝚛 𝚕𝚎𝚐𝚎𝚗𝚍𝚊𝚛𝚢 𝚊𝚍𝚟𝚎𝚗𝚝𝚞𝚛𝚎 _*
 	
-_𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛- https://t.ly/GGqOn_`
+_𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛- https://wa.me/message/MM5LKUUQBHGBF1_`
 	 await Qr_Code_By_Maher_Zubair.sendMessage(Qr_Code_By_Maher_Zubair.user.id,{text:SIGMA_MD_TEXT},{quoted:session})
 
 
